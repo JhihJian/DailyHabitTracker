@@ -1,4 +1,75 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# 日记习惯 - 每日习惯追踪应用
+
+这是一个基于 React Native 开发的每日习惯追踪应用，帮助用户养成良好的习惯，记录日常进步。
+
+## 功能特点
+
+- 💪 习惯追踪：轻松记录和追踪日常习惯完成情况
+- 📊 数据统计：查看习惯连续打卡天数、完成率等统计信息
+- 🏆 成就系统：激励用户坚持良好习惯
+- 🔔 提醒功能：定时提醒，不错过习惯打卡
+- 🌓 深色模式：支持浅色/深色主题切换
+
+## 开发环境设置
+
+### 前提条件
+
+- Node.js
+- JDK 11 或更高版本
+- Android Studio (用于 Android 开发)
+- Xcode (用于 iOS 开发，仅 macOS)
+
+### 安装步骤
+
+1. 克隆仓库：
+```bash
+git clone https://github.com/yourusername/daily-habit-tracker.git
+cd daily-habit-tracker
+```
+
+2. 安装依赖：
+```bash
+npm install
+```
+
+3. 运行 Android 应用：
+```bash
+npx react-native run-android
+```
+
+4. 运行 iOS 应用（仅 macOS）：
+```bash
+npx react-native run-ios
+```
+
+## 项目结构
+
+```
+src/
+  ├── components/   # 可复用组件
+  ├── screens/      # 应用页面
+  ├── navigation/   # 路由导航
+  ├── context/      # 上下文管理
+  ├── utils/        # 工具函数和类型定义
+  ├── hooks/        # 自定义 hooks
+  ├── assets/       # 静态资源
+  └── theme/        # 主题配置
+```
+
+## 技术栈
+
+- React Native
+- TypeScript
+- React Navigation
+- AsyncStorage
+
+## 贡献指南
+
+欢迎贡献代码、报告问题或提出改进建议！请先 fork 仓库，然后提交 pull request。
+
+## 许可证
+
+本项目基于 MIT 许可证开源。
 
 # Getting Started
 
@@ -66,7 +137,7 @@ This is one way to run your app — you can also build it directly from Android 
 
 Now that you have successfully run the app, let's make changes!
 
-Open `App.tsx` in your text editor of choice and make some changes. When you save, your app will automatically update and reflect these changes — this is powered by [Fast Refresh](https://reactnative.dev/docs/fast-refresh).
+Open `App.tsx` in your text editor of choice and make some changes. When you save, your app will automatically update and reflect these changes — this is powered by [Fast Refresh](https://reactnative.dev/docs/fast-refresh).
 
 When you want to forcefully reload, for example to reset the state of your app, you can perform a full reload:
 
